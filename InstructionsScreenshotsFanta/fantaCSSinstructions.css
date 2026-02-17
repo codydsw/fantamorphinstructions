@@ -1,0 +1,53 @@
+/* Container for the whole bar */
+.navbar {
+    display: flex; /* Keeps everything on one line */
+    align-items: center; /* Vertically centers items */
+    background-color: black;
+    padding: 10px;
+    gap: 30px; /* Adds space between the label, arrow, and links */
+    width: 100%;
+}
+
+#navname, .arrow {
+    color: white;
+    font-weight: bold;
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
+}
+
+/* Optional: change color when hovering over links */
+.navlink:hover {
+    color: #ccc;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+}
+
+article h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+article p {
+    text-align: center;
+    font-size: 18px;
+}
+
+article ul {
+    /* This centers the UL box itself */
+    display: table; 
+    margin: 0 auto;
+    
+    /* This keeps the text and dots aligned with each other */
+    text-align: left; 
+    
+    /* Visual styling from your previous requirements */
+    padding: 20px;
+}
